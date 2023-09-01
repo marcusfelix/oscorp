@@ -1,4 +1,4 @@
-# OS CORP
+# OS CORP (WIP)
 Mobile app for construction and maintenance buisness to keep track of expenses/credit and completed tasks
 
 ![OS CORP](./oscorp-1.jpg)
