@@ -28,8 +28,8 @@ class _ProgressState extends State<Progress> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: StreamBuilder<List<Task>>(
-        //stream: FirebaseFirestore.instance.collection("projects").doc(widget.project.id).collection("tasks").snapshots().transform(taskTransformer),
-        stream: Stream.value(tasks),
+        stream: FirebaseFirestore.instance.collection("projects").doc(widget.project.id).collection("tasks").snapshots().transform(taskTransformer),
+        //stream: Stream.value(tasks),
         builder: (context, tasks) {
           return CustomScrollView(
             slivers: [
