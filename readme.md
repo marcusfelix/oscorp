@@ -1,12 +1,12 @@
 # OS CORP (WIP)
-Mobile app for construction and maintenance buisness to keep track of expenses/credit and completed tasks
+Mobile app for construction and maintenance business to keep track of expenses/credit and completed tasks
 
 ![OS CORP](./oscorp-1.jpg)
 
 ### Features
 - Expense tracking
 - Tasks tracking
-- Virual drive for file sharing
+- Virtual drive for file sharing
 
 
 ### Next steps
